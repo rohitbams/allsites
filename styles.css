@@ -1,0 +1,57 @@
+    * {
+        border: 1px solid rgba(255, 0, 0, 0);
+    }
+
+    #h1 {
+        font-size: 50px;
+        text-align: center;
+        padding: 25px;
+        margin: none;
+    }
+
+    .body-class {
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(246, 240, 232);
+        background-color: rgb(44, 44, 44);
+        padding-left: 10px;
+        padding-right: 20px;
+        margin-left: 150px;
+        margin-right: 150px;
+        text-align: justify;
+        text-justify:inter-character;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        margin-right: 100px;
+    }
+
+    .list-of-sites {
+        font-size: 20px;
+    }
+    
+    .subtitle,
+    .list-of-sites {
+        margin-left: 80px;
+    }
+
+    .list-of-sites {
+        font-size: 18px;
+        margin-left: 80px;
+        margin-right: 120px;
+    }
+
+    .list-of-links {
+        display: grid;
+    }
+
+    .link-title {
+        color: peachpuff;
+    }
+
+    a {
+        color:rgb(254, 227, 192);
+        font-size: 18px;
+        text-align: left;
+        text-justify: none;
+    }
