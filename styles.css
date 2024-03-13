@@ -1,57 +1,151 @@
-    * {
-        border: 1px solid rgba(255, 0, 0, 0);
-    }
+@font-face {
+    font-family: 'Antonio';
+    src: url("./fonts/Antonio-VariableFont_wght.ttf");
+}
 
-    #h1 {
-        font-size: 50px;
-        text-align: center;
-        padding: 25px;
-        margin: none;
-    }
+* {
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
 
-    .body-class {
-        font-family: 'Courier New', Courier, monospace;
-        color: rgb(246, 240, 232);
-        background-color: rgb(44, 44, 44);
-        padding-left: 10px;
-        padding-right: 20px;
-        margin-left: 150px;
-        margin-right: 150px;
-        text-align: justify;
-        text-justify:inter-character;
-    }
+}
 
-    .subtitle {
-        font-size: 24px;
-        margin-right: 100px;
-    }
+#h1 {
+    display: inline-block;
+    font-size: 60px;
+    text-align: left;
+    padding: -2em;
+    margin-left: 2.7em;
+    margin-top: -.5em;
+    margin-bottom: -.5em;
+    color:rgb(210, 106, 98);
+    background-color: rgba(0, 0, 0, 0);
+}
 
-    .list-of-sites {
-        font-size: 20px;
-    }
+.special-ops {
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    margin-left: 3.3em;
+    margin-bottom: 1em;
+    margin-top: -.8em;
+    padding-top: -2em;    
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: inline-flex;
+  }
+  
+  .bg {
+    display: inline-block;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 0px;
+    position: center;
     
-    .subtitle,
-    .list-of-sites {
-        margin-left: 80px;
-    }
+    /* The image used */
+    background-image: url("./startrekimages/lcars_2.jpg");
+  
+    /* Full height */
+    height: 800px;
+    width: 1070px;
+  
+    /* Center and scale the image nicely */
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
 
-    .list-of-sites {
-        font-size: 18px;
-        margin-left: 80px;
-        margin-right: 120px;
-    }
+#capt-pimane {
+    display: inline-block;
+    background-image: url("CAPT-PIMANE.png");
+    background-blend-mode: overlay;
 
-    .list-of-links {
-        display: grid;
-    }
+    position: absolute;
+    top: 11em;
+    bottom: 10em;
+    left:40em;
+    
 
-    .link-title {
-        color: peachpuff;
-    }
+    margin-left: -3em;
+    background-repeat: no-repeat;
+    width: 5em;
+    height: auto;
+    background-size: contain;
+}
 
-    a {
-        color:rgb(254, 227, 192);
-        font-size: 18px;
-        text-align: left;
-        text-justify: none;
-    }
+#gif {
+    background-image: url("startrekimages/Tumblr.gif");
+    display: inline-block;
+    background-blend-mode: overlay;
+
+    position: fixed;
+
+    width: 3em;
+    height: auto;
+
+    top: 15em;
+    left:40em;
+    background-size: contain;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 5em;
+    margin-top: -.3em;
+    padding-left: 3em;
+    background-color: rgba(95, 158, 160, 0);
+}
+
+.body-class {
+ 
+    font-family: 'Antonio';
+    color: rgb(246, 240, 232);
+    background-color: rgb(0, 0, 0);
+    text-align: justify;
+    text-justify:inter-character;
+    font-size: 28px;
+
+}
+
+.list-of-sites {
+    font-size: 20px;
+    margin-top: -.8em;
+}
+
+.subtitle,
+.list-of-sites {
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 6em;
+}
+
+.list-of-sites {
+    font-size: 18px;
+    margin-left: 80px;
+    margin-right: 120px;
+}
+
+.link-title {
+    color: rgb(185, 178, 243);
+}
+
+
+a {
+    color:rgb(254, 227, 192);
+    font-size: 18px;
+    text-align: left;
+    text-justify: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
