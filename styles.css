@@ -66,7 +66,7 @@ body, html {
     position: absolute;
     top: 11em;
     bottom: 10em;
-    left:40em;
+    left:38.5em;
     
 
     margin-left: -3em;
@@ -77,17 +77,19 @@ body, html {
 }
 
 #gif {
-    background-image: url("startrekimages/Tumblr.gif");
+    background-image: url("startrekimages/encrypt.png");
     display: inline-block;
     background-blend-mode: overlay;
 
     position: fixed;
 
-    width: 3em;
+    width: 10em;
     height: auto;
 
-    top: 15em;
-    left:40em;
+    top: 18em;
+    left:34em;
+    bottom: 2em;
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
